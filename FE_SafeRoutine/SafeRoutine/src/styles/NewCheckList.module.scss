@@ -1,0 +1,136 @@
+.container {
+  margin-top: 100px;
+  height: auto;
+
+.inputTitle{
+  font-size: 50px;
+  max-width: 500px;
+  border: 0;
+}
+
+.box {
+  height: auto;
+  margin-top: 30px;
+  min-width: 900px;
+  min-height: 600px;
+  border: 1px black solid;
+  padding: 40px;
+  position: relative;
+  font-size: 20px;
+  .middle {
+    width:200px;
+    display: inline-flex;
+  }
+  .big {
+    display: inline-block;
+
+  }
+}
+.checkButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.CheckOption {
+  padding : 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  // border-top: 1px solid black;
+  height: 50px;
+  font-size: 20px;
+  .userNameInput {
+    width: 60%;
+    padding: 0.5rem;
+    margin-right: 10px; // input과 드롭다운 사이의 간격
+    border: 0;
+      font-size: 20px;
+  }
+
+  .userSelect {
+    width: 40%;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: 0;
+  }
+  .questionInput {
+    font-size: 18px;
+    width: 60%;
+  }
+  .answerSelect {
+    font-size: 18px;
+  }
+}
+
+.Camera {
+  width: 30px;
+  height: 30px;
+}
+.checkButton{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}}
+
+// ... 기존 스타일 ...
+
+.addButton,
+.removeButton {
+  padding: 7px 14px;
+  font-size: 20px;
+  margin: 7px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-start;
+    padding: 10px 0;
+}
+
+.createButton {
+  padding: 12px 18px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 4px 2px;
+  // 위치를 상위 컨테이너의 오른쪽 끝으로 설정
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.chartBlock {
+  margin-bottom: 50px; // 버튼이 차트 블록과 겹치지 않도록 마진 설정
+}

@@ -1,0 +1,62 @@
+.manageHeader {
+  position: fixed;
+  top: 120px; 
+  left: 50%; /* 컨테이너를 화면의 가운데로 이동 */
+  transform: translateX(-50%); /* 컨테이너를 자신의 중심을 기준으로 왼쪽으로 50% 이동하여 정확한 중앙 정렬을 달성 */
+  width: 55%;
+  height: 70px;
+  background-color: #ffffff;
+  border: black 1px solid;
+  z-index: 1;
+  display: flex; /* Flex 컨테이너로 설정 */
+  align-items: center; /* 세로 방향으로 가운데 정렬 */
+}
+
+.navblock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  list-style: none;
+  font-size: 24px;
+}
+
+.contents {
+  display: flex;
+  justify-content: center; /* 내부 항목을 가운데 정렬 */
+  align-items: center;
+  margin:0;
+}
+
+.navigation {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 20px;
+    margin: 0;
+    align-items: center;
+
+    li {
+      &:not(:first-child) { // 첫 번째 li 요소를 제외한 모든 li에 적용
+        margin-left: 30px;
+      }
+
+      a { // 모든 li 내부의 링크에 스타일을 적용
+        text-decoration: none; // 링크 밑줄 제거
+        color: #000; // 링크 색상 설정, 필요에 따라 변경 가능
+
+        &:hover { // 링크에 마우스를 올렸을 때의 스타일
+          color: #555; // 호버 색상, 필요에 따라 변경 가능
+        }
+      }
+    }
+  }
+}

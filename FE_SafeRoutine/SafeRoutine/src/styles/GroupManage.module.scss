@@ -1,0 +1,101 @@
+.AlertSend {
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.Header {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-width: 800px;
+    margin-bottom: 20px;
+}
+
+.Title {
+    font-size: 30px;
+    display: inline-block;
+}
+
+.FixGroup {
+    display: inline-block;
+    color: aqua;
+    font-size: 18px;
+    align-self: flex-end;
+
+}
+
+.Block{
+    border: 1px black solid;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.modalGroupFix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .modalContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 24px;
+  }
+  
+  .ModalGroupLeft, .ModalGroupRight {
+    flex: 1;
+    margin: 10px;
+    textarea {
+        width: 90%;
+        height: 150px;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        font-size: 20px;
+      }
+  }
+  
+  .previewImage {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+.ImageLogo {
+    width: 90%;
+    height:80%;
+}
+
+.EditCompleteButton {
+    position: absolute;
+    align-self: flex-end;
+    margin-top: auto;
+    margin-right: 0;
+    padding: 10px 0;
+    right: 10px;
+    bottom: -50px;
+    
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      
+      &:hover {
+        background-color: #45a049;
+      }
+    }
+  }
+  

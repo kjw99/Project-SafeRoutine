@@ -1,0 +1,47 @@
+[
+    {
+        "id": 3,
+        "teamId": 3,
+        "userHashId": null,
+        "memberEmail": "kimteam@ssafy.com",
+        "memberName": "김팀장",
+        "memberPosition": "manager",
+        "teamPriority": 1
+    },
+    {
+        "id": 5,
+        "teamId": 3,
+        "userHashId": null,
+        "memberEmail": "kim1@ssafy.com",
+        "memberName": "김사원",
+        "memberPosition": "normal",
+        "teamPriority": 1
+    },
+    {
+        "id": 6,
+        "teamId": 3,
+        "userHashId": null,
+        "memberEmail": "kim1@ssafy.com",
+        "memberName": "김사원",
+        "memberPosition": "manager",
+        "teamPriority": 1
+    },
+    {
+        "id": 12,
+        "teamId": 1,
+        "userHashId": null,
+        "memberEmail": "kim1@ssafy.com",
+        "memberName": "1팀테스트",
+        "memberPosition": "manager",
+        "teamPriority": 1
+    },
+    {
+        "id": 15,
+        "teamId": 1,
+        "userHashId": null,
+        "memberEmail": "kim1@ssafy.com",
+        "memberName": "1팀테스트2",
+        "memberPosition": "normal",
+        "teamPriority": 1
+    }
+]

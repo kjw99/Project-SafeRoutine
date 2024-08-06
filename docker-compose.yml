@@ -1,0 +1,80 @@
+version: "3.2"
+
+services:
+  frontend:
+    image: frontend
+    build:
+      context: ./FE_SafeRoutine/SafeRoutine
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"
+    # [인증서 파일 저장 경로]:/var/www/html
+    volumes:
+      - /etc/letsencrypt/live/i10b102.p.ssafy.io/fullchain.pem:/etc/letsencrypt/live/i10b102.p.ssafy.io/fullchain.pem
+      - /etc/letsencrypt/live/i10b102.p.ssafy.io/privkey.pem:/etc/letsencrypt/live/i10b102.p.ssafy.io/privkey.pem
+    container_name: "frontend"
+    networks:
+      - helf
+
+  backend:
+    image: backend-spring
+    build:
+      context: ./BE_SafeRoutine
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8080"
+      # [인증서 파일 저장 경로]:/root
+    volumes:
+      - type: bind
+        source: /home/ubuntu/docker-volume
+        target: /root
+    container_name: "backend"
+    networks:
+      - helf
+    environment:
+      - MYSQL_HOST=0.0.0.0
+      - MYSQL_PORT=3306
+      - MYSQL_DATABASE=saferoutine
+      - MYSQL_USERNAME=safe
+      - MYSQL_PASSWORD=safe102
+
+networks:
+  helf:
+# version: "3.2"
+
+# services:
+#   frontend:
+#     image: frontend
+#     build:
+#       context: ./FE_SafeRoutine/SafeRoutine
+#       dockerfile: Dockerfile
+#     ports:
+#       - "80:80"
+#       - "443:443"
+#     # [인증서 파일 저장 경로]:/var/www/html
+#     volumes:
+#       - /home/ubuntu/docker-volume/ssl: /etc/nginx/sites-enabled/default
+#       - /home/ubuntu/docker-volume: /etc/nginx/sites-available/default
+#       - /home/ubuntu/docker-volume: /etc/nginx/sites-enabled/default
+#     container_name: "frontend"
+#     networks:
+#       - helf
+
+#   backend:
+#     image: backend-spring
+#     build:
+#       context: ./BE_SafeRoutine
+#       dockerfile: Dockerfile
+#     ports:
+#       - "8080:8080"
+#       # [인증서 파일 저장 경로]:/root
+#     volumes:
+#       - /home/ubuntu/docker-volume: /etc/nginx/sites-enabled/default
+#       - /home/ubuntu/docker-volume: /etc/nginx/sites-available/default
+#     container_name: "backend"
+#     networks:
+#       - helf
+
+# networks:
+#   helf:

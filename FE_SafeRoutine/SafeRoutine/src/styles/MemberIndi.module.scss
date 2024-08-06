@@ -1,0 +1,42 @@
+.TeamMemberContainer {
+  display: flex;
+  flex-direction: row; /* 가로 방향으로 나열 */
+  align-items: center; /* 요소들을 세로 중앙에 배치 */
+  justify-content: space-between; /* 요소들 사이에 균등한 간격을 두어 배치 */
+  width: 90%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid black; /* $border-color 대신 직접 색상 입력 */
+  margin-bottom: 10px; /* $element-spacing 대신 직접 값 입력 */
+  text-align: center;
+  
+}
+
+.TeamMemberDetail {
+  margin-right: 10px; /* $element-spacing 대신 직접 값 입력 */
+  margin-left: 10px;
+  text-align: center;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.TeamMemberButton {
+  padding: 10px; /* $button-padding 대신 직접 값 입력 */
+  border: none;
+  color: white; /* $primary-text-color 대신 직접 색상 입력 */
+}
+
+.TeamMemberButtons {
+  display: flex;
+  justify-content: flex-start; /* 버튼들을 컨테이너의 시작 부분에 배치 */
+  gap: 10px; /* $element-spacing 대신 직접 값 입력 */
+}
+.managerStyle {
+  background-color: green; /* 관리자 버튼에 적용될 배경색 */
+}
+
+.normalStyle {
+  background-color: yellow; /* 일반 사용자 버튼에 적용될 배경색 */
+}

@@ -1,0 +1,31 @@
+.ManagerButton {
+    display:inline-flex;
+    border-radius: 10px;
+    // border: 1px solid rgb(0, 0, 0);
+    max-width: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-family: 'hansuwon', sans-serif;
+    font-size: 16px;
+    white-space: nowrap; /* 텍스트를 한 줄로 표시 */
+
+
+    &:hover {
+        background-color: #68ffcd;
+      }
+  .managerStyle {
+    background-color: green; /* 관리자 버튼에 적용될 배경색 */
+  }
+  
+  .normalStyle {
+    background-color: yellow; /* 일반 사용자 버튼에 적용될 배경색 */
+  }
+}
+
+

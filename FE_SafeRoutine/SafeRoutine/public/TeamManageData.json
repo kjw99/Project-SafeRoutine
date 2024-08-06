@@ -1,0 +1,32 @@
+{
+    "userInfo": {
+      "email": "kimteam@ssafy.com",
+      "password": "pass"
+    },
+    "teams": [
+      {
+        "teamId": 3,
+        "teamName": "제1팀_김팀장",
+        "teamLink": "f35d7412-b4b4-4c93-b304-258d0dce61a8",
+        "teamIntro": "김팀장1팀관리담당",
+        "teamImage": "image",
+        "teamLinkExpireDate": "2024-02-07T10:10:47.427+00:00"
+      },
+      {
+        "teamId": 4,
+        "teamName": "김팀장2번째",
+        "teamLink": "1c0eebcc-ae9c-48f2-9e6d-22d66fbbc5ac",
+        "teamIntro": "관리가힘들어요",
+        "teamImage": "image",
+        "teamLinkExpireDate": "2024-02-08T05:07:00.594+00:00"
+      },
+      {
+        "teamId": 6,
+        "teamName": "테스트",
+        "teamLink": "057ed116-acfa-490d-9c24-67f939776b85",
+        "teamIntro": "이미지테스트",
+        "teamImage": "https://prac-bucks-4737626283939202.s3.ap-northeast-2.amazonaws.com/Test/2402071301029a7d744fhorse.jpg",
+        "teamLinkExpireDate": "2024-02-16T03:28:43.586+00:00"
+      }
+    ]
+  }

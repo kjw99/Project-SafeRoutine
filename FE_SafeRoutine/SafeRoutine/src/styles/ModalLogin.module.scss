@@ -1,0 +1,12 @@
+.font {
+    font-size: 12px;
+    text-decoration: none;
+    color: gray; 
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline; 
+      color: gray;
+    }
+
+}

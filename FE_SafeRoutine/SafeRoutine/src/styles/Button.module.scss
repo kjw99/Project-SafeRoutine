@@ -1,0 +1,93 @@
+/* Button.module.scss */
+
+$grad1: #4E7E2E;
+$grad2: #D5DA10;
+
+@mixin buttonSize($width, $height, $fontSize, $borderRadius) {
+    width: $width;
+    height: $height;
+    font-size: $fontSize;
+    border-radius: $borderRadius;
+  }
+  
+  .mediumButton {
+    @include buttonSize(80px, 40px, 13px, 13px); // 원하는 border-radius 값으로 변경
+  }
+  
+  .smallButton {
+    @include buttonSize(70px, 32px, 10px, 10px); // 원하는 border-radius 값으로 변경
+  }
+
+  // 버튼 사이즈 커스텀
+
+.green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #4E7E2E; /* 테두리 두께와 스타일 지정 */
+  color: #4E7E2E;
+  background: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.7s, color 0.7s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 20px;
+
+
+  &:hover {
+    background: linear-gradient(to right, $grad2, $grad1);
+    color: white;
+  }
+
+  &:active {
+    border-color: transparent; /* 클릭 시 테두리 숨기기 */
+  }
+}
+.red {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #d21212; /* 테두리 두께와 스타일 지정 */
+  color: #d21212;
+  background: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.7s, color 0.7s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 20px;
+  
+
+  &:hover {
+    background: linear-gradient(to right, $grad2, #d21212);
+    color: white;
+  }
+
+  &:active {
+    border-color: transparent; /* 클릭 시 테두리 숨기기 */
+  }
+}
+.black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black; /* 테두리 두께와 스타일 지정 */
+  color: black;
+  background: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.7s, color 0.7s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 20px;
+
+  &:hover {
+    background: linear-gradient(to right, lightgray, black);
+    color: white;
+  }
+
+  &:active {
+    border-color: transparent; /* 클릭 시 테두리 숨기기 */
+  }
+}
+
+
+// 버튼 색 커스텀

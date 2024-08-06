@@ -1,0 +1,249 @@
+[{
+  "_id": {
+    "$oid": "65b89e3317de3b1d4f6fdba2"
+  },
+  "teamId": 1,
+  "checkListName": "[DEL][2024-01-31, 17시 57분 58초]팀1 테스트체크리스트2",
+  "resetTime": "06:00",
+  "resetCycle": "day",
+  "checkListRow": [
+    {
+      "questionType": "Int",
+      "question": "1층 소화기 불량 개수"
+    },
+    {
+      "questionType": "String",
+      "question": "비고"
+    }
+  ],
+  "checkListCol": [
+    {
+      "question": "대충 무언가의 질문"
+    }
+  ],
+  "checkListType": "공통",
+  "checkListActive": false,
+  "checkListUse": false,
+  "checkListBackUpDate": "2024-01-29",
+  "commentInfo": [
+    {
+      "createDate": "2024-01-28",
+      "userEmail": "asd@ssafy.com",
+      "userName": "김씨",
+      "comments": [
+        1,
+        "무언가대답"
+      ]
+    },
+    {
+      "createDate": "2024-01-28",
+      "userEmail": "bbb@ssafy.com",
+      "userName": "테스트김",
+      "comments": [
+        2,
+        "어렵다"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b8f5f379c3061a017b2c46"
+  },
+  "teamId": 2,
+  "checkListName": "[DEL][2024-01-31, 16시 21분 05초]팀2 테스트체크리스트",
+  "resetTime": "06:00",
+  "resetCycle": "day",
+  "checkListRow": [
+    {
+      "questionType": "Int",
+      "question": "1층 소화기 개수"
+    },
+    {
+      "questionType": "String",
+      "question": "비고"
+    }
+  ],
+  "checkListCol": [
+    {
+      "question": "대충 무언가의 질문"
+    }
+  ],
+  "checkListType": "공통",
+  "checkListActive": false,
+  "checkListUse": false,
+  "checkListBackUpDate": "2024-01-29",
+  "commentInfo": [
+    {
+      "createDate": "2024-01-28",
+      "userEmail": "asd@ssafy.com",
+      "userName": "이씨",
+      "comments": [
+        1,
+        "무언가대답"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b9d250ff98affacd6a8777"
+  },
+  "teamId": 102,
+  "checkListName": "기본 템플릿 소화기 체크 ",
+  "resetTime": "06:00",
+  "resetCycle": "day",
+  "checkListRow": [
+    {
+      "questionType": "Int",
+      "question": "1층 소화기 개수"
+    },
+    {
+      "questionType": "String",
+      "question": "비고"
+    }
+  ],
+  "checkListCol": [
+    {
+      "question": "대충 무언가의 질문"
+    }
+  ],
+  "checkListType": "공통",
+  "checkListActive": true,
+  "checkListUse": true,
+  "checkListBackUpDate": "2024-01-29",
+  "commentInfo": []
+},
+{
+  "_id": {
+    "$oid": "65b9d4a6cefe010b08ec13c1"
+  },
+  "teamId": 1,
+  "checkListName": "[DEL][2024-01-31, 17시 18분 39초]팀1 테스트체크리스트3",
+  "resetTime": "06:00",
+  "resetCycle": "day",
+  "checkListRow": [
+    {
+      "questionType": "Int",
+      "question": "3층 소화기 개수"
+    },
+    {
+      "questionType": "String",
+      "question": "비고"
+    }
+  ],
+  "checkListCol": [
+    {
+      "question": "대충 무언가의 질문"
+    }
+  ],
+  "checkListType": "공통",
+  "checkListActive": false,
+  "checkListUse": false,
+  "checkListBackUpDate": "2024-01-29",
+  "commentInfo": [
+    {
+      "createDate": "2024-01-28",
+      "userEmail": "bbb@ssafy.com",
+      "userName": "김테스트",
+      "comments": [
+        2,
+        "어렵다"
+      ]
+    },
+    {
+      "createDate": "2024-01-28",
+      "userEmail": "ccc@ssafy.com",
+      "userName": "이싸피",
+      "comments": [
+        2,
+        "어렵다"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b9dbdfea368b153e23536d"
+  },
+  "teamId": 2,
+  "checkListName": "팀2 테스트체크리스트2",
+  "resetTime": "06:00",
+  "resetCycle": "day",
+  "checkListRow": [
+    {
+      "questionType": "Int",
+      "question": "2층 소화기 개수"
+    },
+    {
+      "questionType": "String",
+      "question": "비고"
+    }
+  ],
+  "checkListCol": [
+    {
+      "question": "대충 무언가의 질문"
+    }
+  ],
+  "checkListType": "공통",
+  "checkListActive": true,
+  "checkListUse": true,
+  "checkListBackUpDate": "2024-01-30"
+},
+{
+  "_id": {
+    "$oid": "65bb40463a47fc2b33692afe"
+  },
+  "teamId": 1,
+  "checkListName": "팀1 테스트체크리스트",
+  "resetTime": "06:00",
+  "resetCycle": "day",
+  "checkListRow": [
+    {
+      "questionType": "Int",
+      "question": "1층 소화기 개수"
+    },
+    {
+      "questionType": "String",
+      "question": "비고"
+    }
+  ],
+  "checkListCol": [
+    {
+      "question": "대충 무언가의 질문"
+    }
+  ],
+  "checkListType": "공통",
+  "checkListActive": true,
+  "checkListUse": true,
+  "checkListBackUpDate": "2024-01-29",
+  "commentInfo": [
+    {
+      "createDate": "2024-02-01",
+      "userEmail": "aa@ssafy.com",
+      "userName": "에이씨",
+      "comments": [
+        1,
+        "수정완료"
+      ]
+    },
+    {
+      "createDate": "2024-02-01",
+      "userEmail": "bb@ssafy.com",
+      "userName": "비씨",
+      "comments": [
+        1,
+        "추가2"
+      ]
+    },
+    {
+      "createDate": "2024-01-30",
+      "userEmail": "aa@ssafy.com",
+      "userName": "에이씨",
+      "comments": [
+        2,
+        "과거 추가"
+      ]
+    }
+  ]
+}]

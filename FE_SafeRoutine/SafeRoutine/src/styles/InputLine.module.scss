@@ -1,0 +1,77 @@
+// find.module.scss
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .input_style {
+    
+    
+      border: none; // 기존 테두리 제거
+      border-bottom: 3px solid #ccc; // 아래 선 추가 및 회색 설정
+      outline: none;
+      width: 300px;
+     
+     
+  
+  }
+  
+  .input_style::placeholder {
+    color: gray; // 원하는 색상으로 변경
+  }
+  
+  // .pw {
+  //   /* Styles for the password input */
+  //   /* Add your desired changes here */
+  // }
+  
+  .input_line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  width: 500px;
+  
+  }
+  
+  .check_box{
+    padding-right: 20px;
+  }
+  
+  .element{
+  
+    margin-bottom: 70px;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; // 간격 조절
+  
+    p {
+      margin: 0 15px; // 로그인과 회원가입 간격 조절
+    }
+  
+    a {
+      text-decoration: none;
+      color: gray; 
+      cursor: pointer;
+  
+      &:hover {
+        text-decoration: underline; 
+        color: gray;
+      }
+    }
+  }

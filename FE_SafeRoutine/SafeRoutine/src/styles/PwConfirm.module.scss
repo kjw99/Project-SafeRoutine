@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+    border: 1px solid black; 
+    padding: 6px; 
+    border-radius: 20px;
+    margin: auto;
+    border-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(#fff, #fff), linear-gradient(to bottom, #4E7E2E 0%, #D5DA10 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+
+.content {
+    padding: 20px;
+
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    outline: none; /* Remove the default focus outline */
+    font-size: 15px;
+}
+
+.input:focus {
+    border-color: lightgray; /* Keep the same color or set it to whatever you prefer */
+}

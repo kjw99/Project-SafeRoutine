@@ -1,0 +1,20 @@
+.SubmitButton {
+    display:inline-flex;
+    border-radius: 10px;
+    border: 3px solid rgb(53, 117, 69);
+    max-width: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-width:80px;
+    font-size: 22px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    position: absolute; /* 절대 위치 설정 */
+    right: 0; /* 우측 정렬 */
+    bottom: 0; /* 하단 정렬 */
+}
