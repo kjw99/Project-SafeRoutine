@@ -8,7 +8,7 @@ interface InputProps {
   onBlur: () => void;
   placeholder: string;
   onInputChange: (value: string, identifier: string) => void;
-  identifier: string;
+  identifier: string;  
 }
 
 const Input: React.FC<InputProps> = ({ type="text", isClicked, onFocus, onBlur, placeholder, onInputChange, identifier }) => {
@@ -32,7 +32,7 @@ const Input: React.FC<InputProps> = ({ type="text", isClicked, onFocus, onBlur, 
           marginLeft: '20px',
           marginTop: '10px',
           width: '200px',
-        }}
+        }}        
       />
     </div>
   );

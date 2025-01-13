@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "https://i10b102.p.ssafy.io/api";
+// const BASE_URL = "https://i10b102.p.ssafy.io/api";
+const BASE_URL = "http://localhost:8089/api";
 const AXIOS = 
 {
     BASE_URL : BASE_URL,

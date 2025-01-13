@@ -57,7 +57,7 @@ const ModalSignup: React.FC<ModalSignupProps> = ({ isOpen, onClose }) => {
         image: '',
       });
       setTimeout(() => {
-        window.alert('성공적으로 제출되었습니다!');
+        window.alert('회원가입 완료');
       }, 700);
     } else {
       console.log(issue);
